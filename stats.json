@@ -1,0 +1,80 @@
+{
+  "assetsByChunkName": {
+    "path---my-second-post": [
+      "path---my-second-post-606a35e4c8675615cd27.js",
+      "path---my-second-post-606a35e4c8675615cd27.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-62a3a711e80d9c20a3e8.js",
+      "component---src-pages-index-js-62a3a711e80d9c20a3e8.js.map"
+    ],
+    "path---generic": [
+      "path---generic-a0e39f21c11f6a62c5ab.js",
+      "path---generic-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---elements": [
+      "path---elements-a0e39f21c11f6a62c5ab.js",
+      "path---elements-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-elements-js": [
+      "component---src-pages-elements-js-02bd745335036a0229d7.js",
+      "component---src-pages-elements-js-02bd745335036a0229d7.js.map"
+    ],
+    "path---ourphilosophy": [
+      "path---ourphilosophy-a0e39f21c11f6a62c5ab.js",
+      "path---ourphilosophy-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-0c5eaf6937c8400617f6.js",
+      "component---src-templates-blog-post-js-0c5eaf6937c8400617f6.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-ef2e1c5d4d707e3746a3.js",
+      "component---src-layouts-index-js-ef2e1c5d4d707e3746a3.js.map"
+    ],
+    "component---src-pages-ourphilosophy-js": [
+      "component---src-pages-ourphilosophy-js-9fa94e8c8efbf0a080dc.js",
+      "component---src-pages-ourphilosophy-js-9fa94e8c8efbf0a080dc.js.map"
+    ],
+    "path---hi-folks": [
+      "path---hi-folks-521ba3721920bfd4d75c.js",
+      "path---hi-folks-521ba3721920bfd4d75c.js.map"
+    ],
+    "path---landing": [
+      "path---landing-a0e39f21c11f6a62c5ab.js",
+      "path---landing-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-fa2b839c4c515f97b615.js",
+      "path---index-fa2b839c4c515f97b615.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-a7f09cfff704fd558146.js",
+      "path---hello-world-a7f09cfff704fd558146.js.map"
+    ],
+    "component---src-pages-generic-js": [
+      "component---src-pages-generic-js-545f4e172bf741780061.js",
+      "component---src-pages-generic-js-545f4e172bf741780061.js.map"
+    ],
+    "component---src-pages-landing-js": [
+      "component---src-pages-landing-js-034f24d5088c9f48ef2f.js",
+      "component---src-pages-landing-js-034f24d5088c9f48ef2f.js.map"
+    ],
+    "commons": [
+      "commons-d08bcaa7c0ec1f4c2663.js",
+      "build-js-styles.css",
+      "commons-d08bcaa7c0ec1f4c2663.js.map",
+      "build-js-styles.css.map"
+    ],
+    "app": [
+      "app-efc6f79337c1ee7bbeba.js",
+      "build-js-styles.css",
+      "app-efc6f79337c1ee7bbeba.js.map",
+      "build-js-styles.css.map"
+    ]
+  }
+}
