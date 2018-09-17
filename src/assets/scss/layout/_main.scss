@@ -8,6 +8,9 @@
 
 	#main {
 		background-color: _palette(bg);
+		position: relative;
+    	top: -20px;
+    	z-index: 3000000;
 
 		> * {
 			border-top: solid 1px _palette(border);

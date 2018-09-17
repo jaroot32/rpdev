@@ -17,14 +17,6 @@ const AtWork = (props) => (
         <BannerLanding />
 
         <div id="main">
-            <section id="one">
-                <div className="inner">
-                    {/* <header className="major"> */}
-                        {/* <h1>About Rickabaugh Pentecost Development</h1> */}
-                    {/* </header> */}
-                    {/* <p></p> */}
-                </div>
-            </section>
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/ourphilosophy" className="image">
