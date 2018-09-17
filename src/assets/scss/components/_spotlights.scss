@@ -23,8 +23,9 @@
 				background-size: cover;
 				border-radius: 0;
 				display: block;
-				position: relative;
-				width: 30%;
+				// position: relative;
+				width: 100%;
+				margin: 0 auto;
 
 				img {
 					border-radius: 0;
@@ -52,6 +53,7 @@
 				@include vendor('align-items', 'center');
 				@include padding(2em, 3em);
 				width: 70%;
+				margin: 0 auto;
 
 				> .inner {
 					margin: 0 auto;
