@@ -20,9 +20,9 @@ const AtWork = (props) => (
             <section id="one">
                 <div className="inner">
                     {/* <header className="major"> */}
-                        <h1>About Rickabaugh Pentecost Development</h1>
+                        {/* <h1>About Rickabaugh Pentecost Development</h1> */}
                     {/* </header> */}
-                    <p>Founded in 2002, Rickabaugh Pentecost Development, LLC (RPD) is a leading Heavy Civil Contractor headquartered in downtown Puyallup.  We serve the Greater Puget Sound region acting as a Site Work General Contractor.</p>
+                    {/* <p></p> */}
                 </div>
             </section>
             <section id="two" className="spotlights">

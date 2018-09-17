@@ -24,16 +24,18 @@
 		position: relative;
 		top: -3.25em;
 
-		&:after {
+		&:before {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg-alt);
+			
+			background: -webkit-gradient(rgba(0, 130, 170, 0), rgba(0, 0, 0, 1));
+    		background: linear-gradient(rgba(0, 130, 170, 0), rgba(0, 0, 0, 1));
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 1;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -89,7 +91,7 @@
 					font-size: 0.7em;
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
-					text-transform: uppercase;
+					// text-transform: uppercase;
 				}
 			}
 		}

@@ -16,7 +16,7 @@
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
-			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+			background-color: _palette(bg);
 
 			> .image {
 				background-position: center center;
@@ -33,7 +33,7 @@
 				}
 
 				&:before {
-					background: transparentize(_palette(bg), 0.1);
+					background: _palette(bg);
 					content: '';
 					display: block;
 					height: 100%;
@@ -62,7 +62,7 @@
 
 			&:nth-child(2n) {
 				@include vendor('flex-direction', 'row-reverse');
-				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
+				background-color: _palette(bg);
 
 				> .content {
 					@include vendor('align-items', 'flex-end');
@@ -72,12 +72,15 @@
 
 		@include breakpoint(xlarge) {
 			> section {
+				
 				> .image {
-					width: 100%;
+					width: 70%;
+					margin: 0 auto;
 				}
 
 				> .content {
-					width: 100%;
+					width: 70%;
+					margin: 0 auto;
 				}
 			}
 		}
@@ -85,11 +88,13 @@
 		@include breakpoint(large) {
 			> section {
 				> .image {
-					width: 100%;
+					width: 70%;
+					margin: 0 auto;
 				}
 
 				> .content {
-					width: 100%;
+					width: 70%;
+					margin: 0 auto;
 				}
 			}
 		}
