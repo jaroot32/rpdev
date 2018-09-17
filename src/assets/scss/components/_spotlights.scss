@@ -12,12 +12,17 @@
 		& + * {
 			border-top: 0 !important;
 		}
+		> .firstContent {
+			text-align: center;
+			width: 70%;
+			margin: .75em auto;
+		}
 
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			background-color: _palette(bg);
-
+	
 			> .image {
 				background-position: center center;
 				background-size: cover;

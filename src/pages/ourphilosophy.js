@@ -18,6 +18,10 @@ const AtWork = (props) => (
 
         <div id="main">
             <section id="two" className="spotlights">
+            <div className="content firstContent">
+                <p>We serve the Greater Puget Sound region acting as a Site Work General Contractor.</p>
+                <p>Founded in 2002, Rickabaugh Pentecost Development, LLC (RPD) is a leading Heavy Civil Contractor headquartered in downtown Puyallup. </p>
+            </div>
                 <section>
                     <Link to="/ourphilosophy" className="image">
                         <img src={ourphilosophy} alt="" />
