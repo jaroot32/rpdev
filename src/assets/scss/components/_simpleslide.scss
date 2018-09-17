@@ -77,12 +77,12 @@
 
 .slider-wrapper {
   position: relative;
-  height: 95vh;
+  height: 96vh;
   overflow: hidden;
 }
 
 .slide {
-  height: 70vh;
+  height: 90vh;
   background-size: cover !important;
 }
 
@@ -162,13 +162,13 @@
 
 @media (max-height: 500px) {
   .slider-wrapper, .slide {
-    height: calc(120vh - 75px);
+    height: calc(110vh - 75px);
   }    
 }
 
 @media (max-width: 640px) {
   .slider-wrapper, .slide {
-    height: calc(110vh - 75px);
+    height: calc(104vh - 75px);
   }    
 }
 
