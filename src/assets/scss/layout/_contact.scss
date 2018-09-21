@@ -8,7 +8,7 @@
 /* Contact */
 
 	#contact {
-		border-bottom: solid 1px _palette(border);
+		// border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
 
 		> .inner {
@@ -20,18 +20,18 @@
 				width: 15%;
 			}
 			> :nth-child(n + 1) {
-				@include padding(2em, 3em, (0, 3em, 0, 0));
-				width: 30%;
+				@include padding(.8em, 3em, (0, .1em, 0, 0));
+				width: 15%;
 			}
 			> :nth-child(n + 2) {
-				@include padding(2em, 3em, (0, 3em, 0, 0));
+				@include padding(.8em, 3em, (0, .1em, 0, 0));
 				width: 55%;
 			}
 			> .split {
 				padding: 0;
 
 				> * {
-					@include padding(3em, 0, (0, 0, 0, 3em));
+					@include padding(.8em, 0, (0, 0, 0, 3em));
 					position: relative;
 
 					&:before {
@@ -70,10 +70,7 @@
 
 				> .split {
 					> * {
-						@include padding(3em, 0, (0, 0, 0, 0));
-
-						&:before {
-						}
+						// @include padding(3em, 0, (0, 0, 0, 0));
 					}
 
 					> :first-child {
@@ -88,7 +85,7 @@
 		@include breakpoint(small) {
 			> .inner {
 				> :nth-child(2n - 1) {
-					@include padding(3em, 0, (0, 0, 0, 0));
+					// @include padding(3em, 0, (0, 0, 0, 0));
 				}
 			}
 		}
