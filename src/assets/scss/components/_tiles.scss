@@ -33,9 +33,9 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		cursor: default;
-		height: 45vh;
-		max-height: 45em;
-		min-height: 40em;
+		height: 50vh;
+		max-height: 50em;
+		min-height: 45em;
 		overflow: hidden;
 		position: relative;
 		width: 20%;
@@ -145,9 +145,9 @@
 	@include breakpoint(large) {
 		article {
 			@include padding(4em, 3em);
-			height: 45vh;
-			max-height: 45em;
-			min-height: 40em;
+			height: 50vh;
+			max-height: 50em;
+			min-height: 45em;
 		}
 	}
 // 		medium: '(max-width: 980px)'
