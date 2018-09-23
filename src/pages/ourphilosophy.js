@@ -15,7 +15,6 @@ const AtWork = (props) => (
         </Helmet>
 
         <BannerLanding />
-
         <div id="main">
             <section id="two" className="spotlights">
             <div className="content firstContent">
@@ -30,20 +29,21 @@ const AtWork = (props) => (
                 <section>
                     <div className="content">
                         <div className="inner">
-                            {/* <header className="major"> */}
+                            <div className="investing">
                                 <h2>Investing in People</h2>
-                            {/* </header> */}
                             <p>We are a team of like-minded individuals who thrive on hard work, collaboration, and perfection.  
                                 We are a team that understands what trust means.  Both with those we work with and those we work for.</p>
                             <ul className="actions">
                                 {/* <li><Link to="/generic" className="button">Learn more</Link></li> */}
                             </ul>
+                            </div>
                         </div>
                     </div>
                 </section>
                 <section>
                     <div className="content">
                         <div className="inner">
+                        <div className="seemingly">
                             <p>This seemingly simple recipe for success is just that, simple.  The recipe is our core purpose and that is to Invest In People.
                                 That purpose is why we exist, why we put 110% effort into every day.  This investment reaches farther than our team.
                                 It reaches our trade partners, our clients, the municipalities we work in, and all those we contact by wanting each individual to be better for having dealt with the company.
@@ -61,6 +61,7 @@ const AtWork = (props) => (
                             <ul className="actions">
                                 {/* <li><Link to="/generic" className="button">Learn more</Link></li> */}
                             </ul>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -83,9 +84,8 @@ const AtWork = (props) => (
                 <section>
                     <div className="content">
                         <div className="inner">
-                            {/* <header className="major"> */}
+                            <div className="commitment">
                                 <h2>Commitment to Safety</h2>
-                            {/* </header> */}
                             <p>
                                 Safety is a conscience, non-negotiable commitment of
                                 RPD.  This commitment is made between the employees, the subcontractors and vendors.
@@ -100,6 +100,7 @@ const AtWork = (props) => (
                                 {/* <li><Link to="/generic" className="button">Learn more</Link></li> */}
                             </ul>
                         </div>
+                        </div>
                     </div>
                 </section>
                 <section>
@@ -110,19 +111,19 @@ const AtWork = (props) => (
                 <section>
                     <div className="content">
                         <div className="inner">
-                            {/* <header className="major"> */}
-                                <h2>The Paradigm for Quality and Excellence in Construction and Development</h2>
-                            {/* </header> */}
-                            <p>
-                                With great attitudes come great teams with a passion for integrity dedication
-                                to services.  We will lead by serving, sacraficing and mentoring both in-house within our community.
-                                We will be renowned for striving for perfection in every aspect of our daiy operations, while 
-                                having positive impacts on the lives we touch.  The name "RPD" will
-                                be synonymous with quality workmanship, quality citizenship and the leader in the industry.
-                            </p>
-                            <ul className="actions">
-                                {/* <li><Link to="/generic" className="button">Learn more</Link></li> */}
-                            </ul>
+                            <div className="paradigm">
+                                <h3>The Paradigm for Quality and Excellence in Construction and Development</h3>
+                                <p>
+                                    With great attitudes come great teams with a passion for integrity dedication
+                                    to services.  We will lead by serving, sacraficing and mentoring both in-house within our community.
+                                    We will be renowned for striving for perfection in every aspect of our daiy operations, while 
+                                    having positive impacts on the lives we touch.  The name "RPD" will
+                                    be synonymous with quality workmanship, quality citizenship and the leader in the industry.
+                                </p>
+                                <ul className="actions">
+                                    {/* <li><Link to="/generic" className="button">Learn more</Link></li> */}
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </section>

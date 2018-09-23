@@ -13,15 +13,21 @@
 			border-top: 0 !important;
 		}
 		> .firstContent {
-			text-align: center;
+			// text-align: center;
 			width: 70%;
-			margin: .75em auto;
+			margin: 0 auto;
+			padding: 2em;
+			background: rgba(0,0,0,.4);
+			position: relative;
+    		top: -120px;
 		}
 
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
-			background-color: _palette(bg);
+			// background-color: _palette(bg);
+			position: relative;
+    		top: -100px;
 	
 			> .image {
 				background-position: center center;
@@ -56,14 +62,56 @@
 				@include vendor('flex-direction', 'column');
 				@include vendor('justify-content', 'center');
 				@include vendor('align-items', 'center');
-				@include padding(2em, 3em);
+				// @include padding(2em, 3em);
 				width: 70%;
 				margin: 0 auto;
-
+				
 				> .inner {
 					margin: 0 auto;
 					max-width: 100%;
 					width: _size(inner);
+					> .investing {
+						text-align: center;
+						background-color: white;
+						color: red;
+						h2 {
+							color:red;
+						}
+						ul {
+							margin: 0;
+						}
+						p {
+							margin: 0;
+						}
+					}
+					> .seemingly {
+						background-color: red;
+						color: white;
+						ul {
+							margin: 0 auto;
+						}
+					}
+					> .commitment {
+						background-color: grey;
+						color: black;
+						h2 {
+							color: black;
+						}
+						ul {
+							margin: 0 auto;
+						}
+						p {
+							margin: 0 auto;
+						}
+					}
+					> .paradigm {
+						h3 {
+							text-align: center;
+						}
+						p {
+							color: red;
+						}
+					}
 				}
 			}
 
@@ -107,6 +155,15 @@
 		}
 
 		@include breakpoint(medium) {
+			> .firstContent {
+				// text-align: center;
+				width: 100%;
+				margin: .75em auto;
+				padding: 2em;
+				background: rgba(0,0,0,.4);
+				position: relative;
+				top: -100px;
+			}
 			> section {
 				display: block;
 

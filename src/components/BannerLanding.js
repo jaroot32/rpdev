@@ -1,4 +1,9 @@
 import React from 'react'
+import Link from 'gatsby-link'
+
+import ourphilosophy from '../assets/images/ourphilosophy.jpg'
+import ourphilosophy2 from '../assets/images/ourphilosophy2.jpg'
+import ourphilosophy3 from '../assets/images/ourphilosophy3.jpg'
 
 const BannerLanding = (props) => (
     <section id="banner" className="style2">
@@ -8,6 +13,7 @@ const BannerLanding = (props) => (
             </header>
         </div>
     </section>
+    
 )
 
 export default BannerLanding
