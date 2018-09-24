@@ -53,7 +53,7 @@
 			margin: 0 auto;
 			max-width: _size(inner);
 			width: calc(100% - 12em);
-			height: calc(75vh - 10em);
+			height: calc(100vh - .1em);
 
 
 			@include breakpoint(small) {
