@@ -6,6 +6,8 @@ import BannerLanding from '../components/BannerLanding'
 import ourphilosophy from '../assets/images/ourphilosophy.jpg'
 import ourphilosophy2 from '../assets/images/ourphilosophy2.jpg'
 import ourphilosophy3 from '../assets/images/ourphilosophy3.jpg'
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const AtWork = (props) => (
     <div>
@@ -14,12 +16,18 @@ const AtWork = (props) => (
             <meta name="description" content="At Work" />
         </Helmet>
 
-        <BannerLanding />
+        {/* <BannerLanding /> */}
+        <section id="banner" className="style2">
+            <div className="containerInner">
+                
         <div id="main">
             <section id="two" className="spotlights">
+            <section className="major">
+                <h1>About Rickabaugh Pentecost Development</h1>
+            </section>
             <div className="content firstContent">
-                <p>We serve the Greater Puget Sound region acting as a Site Work General Contractor.</p>
-                <p>Founded in 2002, Rickabaugh Pentecost Development, LLC (RPD) is a leading Heavy Civil Contractor headquartered in downtown Puyallup. </p>
+                <p>We serve the Greater Puget Sound region acting as a Site Work General Contractor.
+                Founded in 2002, Rickabaugh Pentecost Development, LLC (RPD) is a leading Heavy Civil Contractor headquartered in downtown Puyallup. </p>
             </div>
                 <section>
                     <Link to="/ourphilosophy" className="image">
@@ -129,7 +137,13 @@ const AtWork = (props) => (
                 </section>
             </section>
         </div>
-
+        <Contact />
+        <Footer />
+        </div>
+    
+        </section>
+       
+     
     </div>
 )
 

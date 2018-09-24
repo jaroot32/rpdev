@@ -7,15 +7,18 @@
 /* Main */
 
 	#main {
-		background-color: _palette(bg);
-		position: relative;
-    	z-index: 3000000;
+		// background-color: _palette(bg);
+		// position: relative;
+		// z-index: 3000000;
+		// top: -100px;
 
 		> * {
 			border-top: solid 1px _palette(border);
 
 			&:first-child {
 				border-top: 0;
+				// position: relative;
+				// top: -50px;
 			}
 
 			@include inner;

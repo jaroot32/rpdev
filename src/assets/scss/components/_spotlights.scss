@@ -14,20 +14,16 @@
 		}
 		> .firstContent {
 			// text-align: center;
-			width: 70%;
+			width: 80%;
 			margin: 0 auto;
 			padding: 2em;
 			background: rgba(0,0,0,.4);
-			position: relative;
-    		top: -120px;
 		}
 
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			// background-color: _palette(bg);
-			position: relative;
-    		top: -100px;
 	
 			> .image {
 				background-position: center center;
@@ -45,7 +41,7 @@
 				}
 
 				&:before {
-					background: _palette(bg);
+					// background: _palette(bg);
 					content: '';
 					display: block;
 					height: 100%;
@@ -63,7 +59,7 @@
 				@include vendor('justify-content', 'center');
 				@include vendor('align-items', 'center');
 				// @include padding(2em, 3em);
-				width: 70%;
+				width: 80%;
 				margin: 0 auto;
 				
 				> .inner {
@@ -74,6 +70,7 @@
 						text-align: center;
 						background-color: white;
 						color: red;
+						padding: 1em;
 						h2 {
 							color:red;
 						}
@@ -87,6 +84,7 @@
 					> .seemingly {
 						background-color: red;
 						color: white;
+						padding: 1em;
 						ul {
 							margin: 0 auto;
 						}
@@ -94,6 +92,7 @@
 					> .commitment {
 						background-color: grey;
 						color: black;
+						padding: 1em;
 						h2 {
 							color: black;
 						}
@@ -105,6 +104,7 @@
 						}
 					}
 					> .paradigm {
+						padding: 1em;
 						h3 {
 							text-align: center;
 						}
@@ -117,7 +117,7 @@
 
 			&:nth-child(2n) {
 				@include vendor('flex-direction', 'row-reverse');
-				background-color: _palette(bg);
+				// background-color: _palette(bg);
 
 				> .content {
 					@include vendor('align-items', 'flex-end');
@@ -129,12 +129,12 @@
 			> section {
 				
 				> .image {
-					width: 70%;
+					width: 80%;
 					margin: 0 auto;
 				}
 
 				> .content {
-					width: 70%;
+					width: 80%;
 					margin: 0 auto;
 				}
 			}
@@ -143,12 +143,12 @@
 		@include breakpoint(large) {
 			> section {
 				> .image {
-					width: 70%;
+					width: 80%;
 					margin: 0 auto;
 				}
 
 				> .content {
-					width: 70%;
+					width: 80%;
 					margin: 0 auto;
 				}
 			}
@@ -158,11 +158,9 @@
 			> .firstContent {
 				// text-align: center;
 				width: 100%;
-				margin: .75em auto;
+				// margin: .75em auto;
 				padding: 2em;
 				background: rgba(0,0,0,.4);
-				position: relative;
-				top: -100px;
 			}
 			> section {
 				display: block;
@@ -172,17 +170,17 @@
 				}
 
 				> .content {
-					@include padding(4em, 3em);
+					// @include padding(4em, 3em);
 					width: 100%;
 				}
 			}
 		}
 
-		@include breakpoint(small) {
-			> section {
-				> .content {
-					@include padding(3em, 1.5em);
-				}
-			}
-		}
+		// @include breakpoint(small) {
+		// 	> section {
+		// 		> .content {
+		// 			@include padding(3em, 1.5em);
+		// 		}
+		// 	}
+		// }
 	}

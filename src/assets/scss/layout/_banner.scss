@@ -8,44 +8,43 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/banner.jpg")');
+		@include vendor('background-image', 'url("../images/ourphilosophy.png")');
 		@include vendor('display', 'flex');
-		@include padding(4em, 0, (2em, 0, 0, 0));
-		background-attachment: fixed;
-		background-position: center;
+		// @include padding(4em, 0, (2em, 0, 0, 0));
+		// background-attachment: fixed;
+		// background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 80vh;
-		margin-bottom: -3.25em;
-		max-height: 45em;
-		min-height: 40em;
+		max-height: 85em;
+		min-height: 80em;
 		position: relative;
 		top: -3.25em;
 
-		&:before {
-			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
-			@include vendor('pointer-events', 'none');
+		// &:before {
+		// 	@include vendor('transition', 'opacity #{_duration(banner)} ease');
+		// 	@include vendor('transition-delay', '0.75s');
+		// 	@include vendor('pointer-events', 'none');
 			
-			background: -webkit-gradient(rgba(0, 130, 170, 0), rgba(0, 0, 0, 1));
-			background: linear-gradient(180deg, rgba(0,0,0,0.01) 0%, rgba(0,0,0,1) 100%);
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 1;
-			position: absolute;
-			top: 0;
-			width: 100%;
-			z-index: 1;
-		}
+		// 	background: -webkit-gradient(rgba(0, 130, 170, 0), rgba(0, 0, 0, 1));
+		// 	background: linear-gradient(180deg, rgba(0,0,0,0.01) 0%, rgba(0,0,0,1) 100%);
+		// 	content: '';
+		// 	display: block;
+		// 	height: 100%;
+		// 	left: 0;
+		// 	opacity: 1;
+		// 	position: absolute;
+		// 	top: 0;
+		// 	width: 100%;
+		// 	z-index: 1;
+		// }
 
 		h1 {
-			font-size: 3.25em;
-			text-align: center;
+			font-size: 2.6em;
+			margin: .3em auto;
 			line-height: 1;
+			text-align: center;
 		}
 
 		> .inner {
@@ -56,12 +55,12 @@
 				'-webkit-filter 0.5s ease'
 			));
 			padding: 0 !important;
-			position: relative;
+			// position: relative;
 			z-index: 2;
 
-			.image {
-				display: none;
-			}
+			// .image {
+			// 	display: none;
+			// }
 
 			header {
 				width: auto;
@@ -79,8 +78,8 @@
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
 				margin: 0 auto;
-    			text-align: center;
-    			width: 80%;
+    			// text-align: center;
+    			// width: 80%;
 
 				> * {
 					margin-left: 1.5em;
@@ -134,11 +133,11 @@
 		}
 
 		@include breakpoint(small) {
-			@include padding(3em, 0, (2em, 0, 0, 0));
+			// @include padding(3em, 0, (2em, 0, 0, 0));
 			height: auto;
 			margin-bottom: -2.75em;
 			max-height: 40em;
-			min-height: 35em;
+			min-height: 1000px;
 			top: -2.75em;
 
 			h1 {
@@ -164,7 +163,7 @@
 		}
 
 		@include breakpoint(xsmall) {
-			@include padding(4em, 0, (2em, 0, 0, 0));
+			// @include padding(4em, 0, (2em, 0, 0, 0));
 
 			> .inner {
 				.content {
@@ -177,7 +176,7 @@
 			}
 
 			&.major {
-				@include padding(6em, 0, (2em, 0, 0, 0));
+				// @include padding(6em, 0, (2em, 0, 0, 0));
 			}
 		}
 	}

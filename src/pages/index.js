@@ -8,6 +8,8 @@ import vertical3 from '../assets/images/vertical3.jpg'
 import vertical4 from '../assets/images/vertical4.jpg'
 import vertical5 from '../assets/images/vertical5.jpg'
 import RPDSlideShow from '../components/SimpleSlide';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 class HomeIndex extends React.Component {
     render() {
@@ -57,6 +59,8 @@ class HomeIndex extends React.Component {
                         </article>
                     </section>
                 </div>
+                <Contact />
+                <Footer />
             </div>
         )
     }
