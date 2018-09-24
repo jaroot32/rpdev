@@ -14,12 +14,12 @@
 		// background-attachment: fixed;
 		// background-position: center;
 		background-repeat: no-repeat;
-		background-size: contain;
+		// background-size: contain;
 		border-bottom: 0 !important;
 		cursor: default;
 		max-height: 85em;
-		min-height: 80em;
-		position: relative;
+		min-height: 1040px;
+		// position: relative;
 		top: -3.25em;
 
 		// &:before {
@@ -55,7 +55,7 @@
 				'-webkit-filter 0.5s ease'
 			));
 			padding: 0 !important;
-			// position: relative;
+			position: relative;
 			z-index: 2;
 
 			// .image {
@@ -101,7 +101,7 @@
 
 		&.major {
 			height: 75vh;
-			min-height: 30em;
+			min-height: 40em;
 			max-height: 50em;
 
 			&.alt {
@@ -134,10 +134,10 @@
 
 		@include breakpoint(small) {
 			// @include padding(3em, 0, (2em, 0, 0, 0));
-			height: auto;
+			// height: auto;
 			margin-bottom: -2.75em;
 			max-height: 40em;
-			min-height: 1000px;
+			min-height: 850px;
 			top: -2.75em;
 
 			h1 {
