@@ -5,8 +5,8 @@
       "path---my-second-post-d0009cc9d64142b7fbf9.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e3eb59b847a469d0a97a.js",
-      "component---src-pages-index-js-e3eb59b847a469d0a97a.js.map"
+      "component---src-pages-index-js-99cd1cac0517fbf754f1.js",
+      "component---src-pages-index-js-99cd1cac0517fbf754f1.js.map"
     ],
     "path---generic": [
       "path---generic-a0e39f21c11f6a62c5ab.js",
@@ -56,6 +56,10 @@
       "path---hello-world-dcd366e5fbdf36726e32.js",
       "path---hello-world-dcd366e5fbdf36726e32.js.map"
     ],
+    "component---src-pages-capabilities-js": [
+      "component---src-pages-capabilities-js-d60a018bcebb2ca8d9c7.js",
+      "component---src-pages-capabilities-js-d60a018bcebb2ca8d9c7.js.map"
+    ],
     "component---src-pages-generic-js": [
       "component---src-pages-generic-js-545f4e172bf741780061.js",
       "component---src-pages-generic-js-545f4e172bf741780061.js.map"
@@ -70,10 +74,14 @@
       "commons-d08bcaa7c0ec1f4c2663.js.map",
       "build-js-styles.css.map"
     ],
+    "path---capabilities": [
+      "path---capabilities-a0e39f21c11f6a62c5ab.js",
+      "path---capabilities-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-efc6f79337c1ee7bbeba.js",
+      "app-04e3420c72217c837faf.js",
       "build-js-styles.css",
-      "app-efc6f79337c1ee7bbeba.js.map",
+      "app-04e3420c72217c837faf.js.map",
       "build-js-styles.css.map"
     ]
   }
