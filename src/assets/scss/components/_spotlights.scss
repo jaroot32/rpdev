@@ -40,17 +40,17 @@
 					width: 100%;
 				}
 
-				&:before {
-					// background: _palette(bg);
-					content: '';
-					display: block;
-					height: 100%;
-					left: 0;
-					opacity: 0;
-					position: absolute;
-					top: 0;
-					width: 100%;
-				}
+				// &:before {
+				// 	// background: _palette(bg);
+				// 	content: '';
+				// 	display: block;
+				// 	height: 100%;
+				// 	left: 0;
+				// 	opacity: 0;
+				// 	position: absolute;
+				// 	top: 0;
+				// 	width: 100%;
+				// }
 			}
 
 			> .content {
@@ -81,6 +81,27 @@
 							margin: 0;
 						}
 					}
+					> .partnerships {
+						text-align: center;
+						background-color: white;
+						color: black;
+						padding: 1em;
+						.partnershipsP {
+							text-align: left;
+						}
+						.highTrust {
+							color: red;
+						}
+						h2 {
+							color: black;
+						}
+						ul {
+							margin: 0;
+						}
+						p {
+							margin: 0;
+						}
+					}
 					> .seemingly {
 						background-color: red;
 						color: white;
@@ -89,12 +110,24 @@
 							margin: 0 auto;
 						}
 					}
-					> .commitment {
+					> .estimating {
+						background-color: red;
+						color: white;
+						padding: 1em;
+						h2 {
+							text-align: center;
+						}
+						p {
+							text-align: left;
+						}
+					}
+					> .underground {
 						background-color: grey;
 						color: black;
 						padding: 1em;
 						h2 {
 							color: black;
+							text-align: center;
 						}
 						ul {
 							margin: 0 auto;
@@ -110,6 +143,58 @@
 						}
 						p {
 							color: red;
+						}
+					}
+					> .earthwork {
+					
+						background-color: white;
+						padding: 1em;
+						h2 {
+							text-align: center;
+							color: red;
+						}
+						p {
+							margin: 0;
+							text-align: left;
+							color: red;
+						}
+					}
+					> .projectManagement {
+						background-color: grey;
+						color: white;
+						padding: 1em;
+						h2 {
+							color: white;
+							text-align: center;
+						}
+						p {
+							margin: 0 auto;
+						}
+					}
+					> .commitment {
+						background-color: white;
+						color: black;
+						padding: 1em;
+					
+						h2 {
+							color: black;
+							text-align: center;
+						}
+						p {
+							margin: 0;
+							text-align: left;
+						
+						}
+					}
+					> .lastParagraph {
+						background-color: white;
+						color: black;
+						padding: 1em;
+					
+						p {
+							margin: 0;
+							text-align: left;
+						
 						}
 					}
 				}

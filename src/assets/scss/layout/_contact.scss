@@ -10,6 +10,7 @@
 	#contact {
 		// border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
+		margin: 1em;
 
 		> .inner {
 			@include vendor('display', 'flex');
@@ -24,26 +25,26 @@
 				width: 15%;
 			}
 			> :nth-child(n + 2) {
-				@include padding(.8em, 3em, (0, .1em, 0, 0));
+				@include padding(0, 3em, (0, .1em, 0, 0));
 				width: 55%;
 			}
 			> .split {
-				padding: 0;
+				padding: 0 6em;
 
-				> * {
-					// @include padding(.8em, 0, (0, 0, 0, 3em));
-					position: relative;
+				// > * {
+				// 	// @include padding(.8em, 0, (0, 0, 0, 3em));
+				// 	position: relative;
 
-					&:before {
-						border-top: solid 1px _palette(border);
-						content: '';
-						display: block;
-						margin-left: -3em;
-						position: absolute;
-						top: 0;
-						width: calc(100vw + 3em);
-					}
-				}
+				// 	&:before {
+				// 		border-top: solid 1px _palette(border);
+				// 		content: '';
+				// 		display: block;
+				// 		margin-left: -3em;
+				// 		position: absolute;
+				// 		top: 0;
+				// 		width: calc(100vw + 3em);
+				// 	}
+				// }
 
 				> :first-child {
 					&:before {
